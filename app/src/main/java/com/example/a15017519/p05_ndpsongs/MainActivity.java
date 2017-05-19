@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                 }
             }
-        });//
+        });
 
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
