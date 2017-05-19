@@ -38,4 +38,16 @@ public class Song {
     public int getStars() {
         return stars;
     }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setSinger(String singer) {
+        this.singer = singer;
+    }
+    public void setYear(int year) {
+        this.year = year;
+    }
+    public void setStars(int stars) {
+        this.stars = stars;
+    }
 }
