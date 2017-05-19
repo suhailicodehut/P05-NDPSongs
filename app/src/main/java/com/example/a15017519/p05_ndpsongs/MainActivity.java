@@ -1,5 +1,6 @@
 package com.example.a15017519.p05_ndpsongs;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -49,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(MainActivity.this,ShowSong.class);
+                startActivity(i);
             }
         });
     }
