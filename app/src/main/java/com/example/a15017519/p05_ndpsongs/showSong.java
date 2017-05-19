@@ -19,14 +19,14 @@ public class showSong extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_song);
 
-        btn5Star = (Button)findViewById(R.id.buttonShowSong);
+        btn5Star = (Button)findViewById(R.id.btn5Star);
         lv = (ListView)findViewById(R.id.lv);
 
         DBHelper db = new DBHelper(showSong.this);
         ArrayList<Song> data = db.getAllSongs();
 
         db.close();
-        aa = new CustomAdapter(showSong.this, R.layout.row, al);
+        aa = new CustomAdapter(showSong.this, R.layout.row, data);
         aa.notifyDataSetChanged();
         lv.setAdapter(aa);
     }
