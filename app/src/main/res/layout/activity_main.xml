@@ -15,12 +15,11 @@
         android:text="Song Title" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView4"
@@ -29,12 +28,11 @@
         android:text="Singers" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etSinger"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView3"
@@ -43,12 +41,11 @@
         android:text="Years" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/etYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView2"
@@ -57,6 +54,7 @@
         android:text="Stars" />
 
     <RadioGroup
+        android:id="@+id/rgStars"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -98,14 +96,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnInsert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Insert" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnShow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
